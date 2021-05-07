@@ -365,10 +365,10 @@
         <!-- Customers Counter -->
         <div class="col-md-3">
           <div class="row">
-            <div class="col-md-4 icon-center">
+            <div class="col-lg-4 icon-center">
               <i class="fas fa-user"></i>
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8">
               <h3 class="counter">1050</h3>
               <h5>Customers</h5>
             </div>
@@ -377,10 +377,10 @@
         <!-- Awards Counter -->
         <div class="col-md-3">
           <div class="row">
-            <div class="col-md-5 icon-center">
+            <div class="col-lg-5 icon-center">
               <i class="fas fa-graduation-cap"></i>
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7">
               <h3 class="counter">50</h3>
               <h5>Awards</h5>
             </div>
@@ -389,10 +389,10 @@
         <!-- Completed Projects Counter -->
         <div class="col-md-3">
           <div class="row">
-            <div class="col-md-4 icon-center">
+            <div class="col-lg-4 icon-center">
               <i class="fas fa-tasks"></i>
             </div>
-            <div class="col-md-8 icon text-center">
+            <div class="col-lg-8 icon text-center">
               <h3 class="counter">2394</h3>
               <h5>Projects Completed</h5>
             </div>
@@ -401,10 +401,10 @@
         <!-- Followers Counter -->
         <div class="col-md-3">
           <div class="row">
-            <div class="col-md-4 icon-center">
+            <div class="col-lg-4 icon-center">
               <i class="fab fa-twitter"></i>
             </div>
-            <div class="col-md-8">
+            <div class="col-lg-8">
               <h3 class="counter">256,000</h3>
               <h5>Followers</h5>
             </div>
@@ -640,12 +640,23 @@
         nextArrow: '<i class="fas fa-chevron-right"></i>',
         prevArrow: '<i class="fas fa-chevron-left"></i>',
         responsive: [{
-          breakpoint: 1199,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            breakpoint: 1400,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: true
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false
+            }
           }
-        }]
+        ]
       });
     });
   </script>

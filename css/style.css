@@ -629,13 +629,13 @@ header {
   color: #fff;
   font-size: 55px;
   margin: 0;
-  text-align: left;
+  text-align: center;
 }
 
 .counter-content h5 {
   color: #fff;
   font-size: 15px;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -1257,10 +1257,6 @@ Media Query For Mobile
     margin: 0;
   }
 
-  .slick-arrow {
-    display: none !important;
-  }
-
   .counter-section {
     padding: 50px 0 30px;
   }
@@ -1494,10 +1490,6 @@ Media Query For Mobile
     margin: 0;
   }
 
-  .slick-arrow {
-    display: none !important;
-  }
-
   .counter-section {
     padding: 50px 0 30px;
   }
@@ -1661,10 +1653,6 @@ Media Query For Mobile
     margin: 90px 0;
   }
 
-  .slick-arrow {
-    display: none;
-  }
-
   .counter-section .fas, .fab {
     font-size: 60px;
     color: #fff;
@@ -1812,10 +1800,6 @@ Media Query For Mobile
 
   .promo-hover {
     padding-bottom: 0;
-  }
-
-  .slick-arrow {
-    display: none !important;
   }
 
   .counter-content .icon-center {
